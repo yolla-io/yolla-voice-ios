@@ -1,0 +1,12 @@
+// Shared build settings for the example. Local values live in two git-ignored files next to this one.
+//
+// Signing.local.xcconfig, signing:
+//   DEVELOPMENT_TEAM = ABCDE12345
+//
+// Local.xcconfig, the token of the Yolla demo backend (ask Yolla for one), which the token request carries as its
+// bearer; with the placeholder below the app asks for a token before it calls:
+//   YOLLA_VOICE_DEMO_TOKEN = <your demo token>
+YOLLA_VOICE_DEMO_TOKEN = YOUR_DEMO_TOKEN
+
+#include? "Signing.local.xcconfig"
+#include? "Local.xcconfig"

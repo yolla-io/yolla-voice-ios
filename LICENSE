@@ -1,0 +1,37 @@
+Yolla Voice SDK License
+
+Copyright (c) 2026 Yolla Calls International OÜ. All rights reserved.
+
+1. Ownership. The Yolla Voice SDK, in source and binary form, together with its documentation (the "SDK"), is
+   proprietary software of Yolla Calls International OÜ and is protected by copyright. The SDK is licensed, not sold.
+
+2. Who may use the SDK. The SDK may be used only by a party that has a commercial agreement with Yolla Calls International OÜ
+   covering the Yolla voice platform (the "Agreement"), for as long as the Agreement is in force and within its
+   terms. Obtaining the SDK from a public repository does not by itself grant any right to use it.
+
+3. Permitted use. Under the Agreement you may integrate the unmodified SDK binary into your own applications and
+   distribute it in object form only as an inseparable part of those applications, to place calls through the Yolla
+   voice platform.
+
+4. Restrictions. You may not: (a) distribute, sublicense, sell or host the SDK on its own; (b) modify the SDK or
+   create derivative works of it; (c) decompile, disassemble or otherwise reverse engineer the SDK, except where
+   applicable law permits it despite this restriction; (d) use the SDK with a service other than the Yolla voice
+   platform; (e) remove or alter copyright and license notices.
+
+5. Example application. The example application in Examples/YollaVoiceExample is licensed separately under the MIT
+   License; see Examples/YollaVoiceExample/LICENSE.
+
+6. Third-party software. The SDK depends on WebRTC, which is distributed separately under its own license. This
+   license does not cover third-party software.
+
+7. Termination. The rights above end when the Agreement ends or when its terms or this license are breached. On
+   termination you must stop distributing new versions of applications that contain the SDK.
+
+8. No warranty. Except as expressly stated in the Agreement, the SDK is provided "as is", without warranty of any
+   kind, express or implied, including the warranties of merchantability, fitness for a particular purpose and
+   non-infringement.
+
+9. Liability. Except as expressly stated in the Agreement and to the extent permitted by law, Yolla Calls International OÜ is not
+   liable for any indirect, incidental, special or consequential damages arising from the use of the SDK.
+
+10. Precedence. If this license and the Agreement conflict, the Agreement prevails.

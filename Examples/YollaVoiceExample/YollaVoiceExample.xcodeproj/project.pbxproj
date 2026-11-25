@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A10000000000000000000A3 /* YollaVoiceSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7A10000000000000000000A2 /* YollaVoiceSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E568733080D88200A582DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E5685D3080D88000A582DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E568643080D88000A582DE;
+			remoteInfo = YollaVoiceExample;
+		};
+		52E5687D3080D88200A582DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E5685D3080D88000A582DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E568643080D88000A582DE;
+			remoteInfo = YollaVoiceExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52E568653080D88000A582DE /* YollaVoiceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YollaVoiceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E568723080D88200A582DE /* YollaVoiceExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YollaVoiceExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E5687C3080D88200A582DE /* YollaVoiceExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YollaVoiceExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A10000000000000000000B1 /* Example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Example.xcconfig; path = Config/Example.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7A10000000000000000000A4 /* Exceptions for "YollaVoiceExample" folder in "YollaVoiceExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 52E568643080D88000A582DE /* YollaVoiceExample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52E568673080D88000A582DE /* YollaVoiceExample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7A10000000000000000000A4 /* Exceptions for "YollaVoiceExample" folder in "YollaVoiceExample" target */,
+			);
+			path = YollaVoiceExample;
+			sourceTree = "<group>";
+		};
+		52E568753080D88200A582DE /* YollaVoiceExampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YollaVoiceExampleTests;
+			sourceTree = "<group>";
+		};
+		52E5687F3080D88200A582DE /* YollaVoiceExampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YollaVoiceExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E568623080D88000A582DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10000000000000000000A3 /* YollaVoiceSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E5686F3080D88200A582DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E568793080D88200A582DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E5685C3080D88000A582DE = {
+			isa = PBXGroup;
+			children = (
+				7A10000000000000000000B1 /* Example.xcconfig */,
+				52E568673080D88000A582DE /* YollaVoiceExample */,
+				52E568753080D88200A582DE /* YollaVoiceExampleTests */,
+				52E5687F3080D88200A582DE /* YollaVoiceExampleUITests */,
+				52E568663080D88000A582DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E568663080D88000A582DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E568653080D88000A582DE /* YollaVoiceExample.app */,
+				52E568723080D88200A582DE /* YollaVoiceExampleTests.xctest */,
+				52E5687C3080D88200A582DE /* YollaVoiceExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E568643080D88000A582DE /* YollaVoiceExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E568863080D88200A582DE /* Build configuration list for PBXNativeTarget "YollaVoiceExample" */;
+			buildPhases = (
+				52E568613080D88000A582DE /* Sources */,
+				52E568623080D88000A582DE /* Frameworks */,
+				52E568633080D88000A582DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52E568673080D88000A582DE /* YollaVoiceExample */,
+			);
+			name = YollaVoiceExample;
+			packageProductDependencies = (
+				7A10000000000000000000A2 /* YollaVoiceSDK */,
+			);
+			productName = YollaVoiceExample;
+			productReference = 52E568653080D88000A582DE /* YollaVoiceExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52E568713080D88200A582DE /* YollaVoiceExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E568893080D88200A582DE /* Build configuration list for PBXNativeTarget "YollaVoiceExampleTests" */;
+			buildPhases = (
+				52E5686E3080D88200A582DE /* Sources */,
+				52E5686F3080D88200A582DE /* Frameworks */,
+				52E568703080D88200A582DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E568743080D88200A582DE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52E568753080D88200A582DE /* YollaVoiceExampleTests */,
+			);
+			name = YollaVoiceExampleTests;
+			packageProductDependencies = (
+			);
+			productName = YollaVoiceExampleTests;
+			productReference = 52E568723080D88200A582DE /* YollaVoiceExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52E5687B3080D88200A582DE /* YollaVoiceExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E5688C3080D88200A582DE /* Build configuration list for PBXNativeTarget "YollaVoiceExampleUITests" */;
+			buildPhases = (
+				52E568783080D88200A582DE /* Sources */,
+				52E568793080D88200A582DE /* Frameworks */,
+				52E5687A3080D88200A582DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E5687E3080D88200A582DE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52E5687F3080D88200A582DE /* YollaVoiceExampleUITests */,
+			);
+			name = YollaVoiceExampleUITests;
+			packageProductDependencies = (
+			);
+			productName = YollaVoiceExampleUITests;
+			productReference = 52E5687C3080D88200A582DE /* YollaVoiceExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E5685D3080D88000A582DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					52E568643080D88000A582DE = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					52E568713080D88200A582DE = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 52E568643080D88000A582DE;
+					};
+					52E5687B3080D88200A582DE = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 52E568643080D88000A582DE;
+					};
+				};
+			};
+			buildConfigurationList = 52E568603080D88000A582DE /* Build configuration list for PBXProject "YollaVoiceExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E5685C3080D88000A582DE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7A10000000000000000000A1 /* XCLocalSwiftPackageReference "../.." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52E568663080D88000A582DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E568643080D88000A582DE /* YollaVoiceExample */,
+				52E568713080D88200A582DE /* YollaVoiceExampleTests */,
+				52E5687B3080D88200A582DE /* YollaVoiceExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E568633080D88000A582DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E568703080D88200A582DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E5687A3080D88200A582DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E568613080D88000A582DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E5686E3080D88200A582DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E568783080D88200A582DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E568743080D88200A582DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E568643080D88000A582DE /* YollaVoiceExample */;
+			targetProxy = 52E568733080D88200A582DE /* PBXContainerItemProxy */;
+		};
+		52E5687E3080D88200A582DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E568643080D88000A582DE /* YollaVoiceExample */;
+			targetProxy = 52E5687D3080D88200A582DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52E568843080D88200A582DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10000000000000000000B1 /* Example.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52E568853080D88200A582DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10000000000000000000B1 /* Example.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E568873080D88200A582DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10000000000000000000B1 /* Example.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YollaVoiceExample/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Needed to talk during calls.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yollacalls.ios.voice.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E568883080D88200A582DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10000000000000000000B1 /* Example.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YollaVoiceExample/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Needed to talk during calls.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yollacalls.ios.voice.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52E5688A3080D88200A582DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10000000000000000000B1 /* Example.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yollacalls.ios.voice.example.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YollaVoiceExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YollaVoiceExample";
+			};
+			name = Debug;
+		};
+		52E5688B3080D88200A582DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10000000000000000000B1 /* Example.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yollacalls.ios.voice.example.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YollaVoiceExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YollaVoiceExample";
+			};
+			name = Release;
+		};
+		52E5688D3080D88200A582DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10000000000000000000B1 /* Example.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yollacalls.ios.voice.example.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YollaVoiceExample;
+			};
+			name = Debug;
+		};
+		52E5688E3080D88200A582DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A10000000000000000000B1 /* Example.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yollacalls.ios.voice.example.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YollaVoiceExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E568603080D88000A582DE /* Build configuration list for PBXProject "YollaVoiceExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E568843080D88200A582DE /* Debug */,
+				52E568853080D88200A582DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E568863080D88200A582DE /* Build configuration list for PBXNativeTarget "YollaVoiceExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E568873080D88200A582DE /* Debug */,
+				52E568883080D88200A582DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E568893080D88200A582DE /* Build configuration list for PBXNativeTarget "YollaVoiceExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E5688A3080D88200A582DE /* Debug */,
+				52E5688B3080D88200A582DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E5688C3080D88200A582DE /* Build configuration list for PBXNativeTarget "YollaVoiceExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E5688D3080D88200A582DE /* Debug */,
+				52E5688E3080D88200A582DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		7A10000000000000000000A1 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A10000000000000000000A2 /* YollaVoiceSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = YollaVoiceSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52E5685D3080D88000A582DE /* Project object */;
+}
