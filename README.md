@@ -8,7 +8,7 @@ owns the user interface and CallKit.
 - Call quality statistics and warnings
 - Ringback, busy and end tones, with no audio files to ship
 
-Version 0.1.0.
+Version 0.1.1.
 
 ## Requirements
 
@@ -22,7 +22,7 @@ The SDK is a binary framework; WebRTC comes with it as a package dependency.
 Swift Package Manager, in Xcode (**File → Add Package Dependencies…**) or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/yolla-io/yolla-voice-ios", from: "0.1.0")
+.package(url: "https://github.com/yolla-io/yolla-voice-ios", from: "0.1.1")
 ```
 
 Add the `YollaVoiceSDK` product to your app target, and in the app's `Info.plist` set:
